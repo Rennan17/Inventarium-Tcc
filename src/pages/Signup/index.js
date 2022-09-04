@@ -35,6 +35,7 @@ const Signup = () => {
   };
 
   return (
+    <C.Bg>
     <C.Container>
       <C.Label>SISTEMA DE LOGIN</C.Label>
       <C.Content>
@@ -66,6 +67,7 @@ const Signup = () => {
         </C.LabelSignin>
       </C.Content>
     </C.Container>
+    </C.Bg>
   );
 };
 

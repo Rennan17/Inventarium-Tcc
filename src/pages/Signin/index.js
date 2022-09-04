@@ -30,6 +30,7 @@ const Signin = () => {
   };
 
   return (
+    <C.Bg>
     <C.Container>
       <C.Label>INVENTARIUM - ENTRE OU CADASTRE-SE</C.Label>
       <C.Content>
@@ -55,6 +56,7 @@ const Signin = () => {
         </C.LabelSignup>
       </C.Content>
     </C.Container>
+    </C.Bg>
   );
 };
 

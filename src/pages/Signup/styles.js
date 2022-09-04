@@ -46,4 +46,12 @@ export const Strong = styled.strong`
     text-decoration: none;
     color: #676767;
   }
-`;
+`
+
+export const Bg = styled.div`
+  background: url("./img/Inventarium.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+`;;
